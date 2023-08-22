@@ -1,0 +1,99 @@
+  .mx-auto {
+    margin: auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Signika Negative', sans-serif;
+  color: white;
+  transition: all 0.5s ease;
+  background-color:rgb(79, 138, 165);
+  background-size: contain;
+}
+
+.container {
+  place-items: center;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.calc {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #000;
+}
+
+#operator, .mul {
+  font-size: 25px;
+  background-color: #ffd0fd;
+  color: #2db10c;
+}
+
+#number {
+  font-size: 18px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+#clear {
+  font-size: 18px;
+  background-color: #91e7f0;
+  color: #ff0011;
+}
+
+#equal {
+  font-size: 25px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.button, .mul {
+  padding: 20px;
+  margin: 0 3px;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 75px;
+  width: 75px;
+}
+
+.button:hover, .mul:hover {
+  transform: scale(1.03);
+}
+
+.rowspan-2 {
+  width: 160px;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  width: 318px;
+  font-size: 20px;
+  margin: 22px 11px;
+  padding: 10px 2px;
+  border: 1px solid rgb(74, 186, 198);
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 30px #000;
+}
